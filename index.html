@@ -10,36 +10,36 @@
       <link rel="stylesheet" href="./css/style.css">
    </head>
    <body>
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-         <div class="container">
-            <a class="navbar-brand" href="#">
-            <img src="images/logo.png" class="img-responsive" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-               <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">pop culture</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">design</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">photography</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">about us</a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </nav>
+
       <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+           <div class="container">
+              <a class="navbar-brand" href="#">
+              <img src="images/logo.png" class="img-responsive" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">pop culture</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">design</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">photography</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">about us</a>
+                    </li>
+                 </ul>
+              </div>
+           </div>
+        </nav>
+        <center><h1>Discover smart news <br>for smart people.</h1></center>
          <img src="images/header.png" class="img-responsive" style="width:100%">
-         <p>Discover smart news <br>
-            for smart people.</p>
       </header>
       <div>
          <center><h2>Latest news</h2></center>
@@ -80,7 +80,7 @@
                      Dans cette série de tableaux, l’artiste Dries Ketels se penche sur la célèbre...
                      <br><br>
                      <a><img src="images/btn-likes.png" class="img-responsive" alt="Image"> 0 likes</a>
-                     <a><img src="images/btn-comments.png" class="img-responsive" alt="Image"> 0 Comments</a>
+                     <a onclick="popUp()"><img src="images/btn-comments.png" class="img-responsive" > 0 Comments</a>
                   </div>
                </div>
             </div>
@@ -128,9 +128,9 @@
          </div>
       </div>
       <br><br>
-      <center><div class ="load">
+      <center><a><div class ="load">
         LOAD MORE
-      </div></center>
+      </div></a></center>
       <footer class="container-fluid">
          <ul>
             <li>Instagram</li>
