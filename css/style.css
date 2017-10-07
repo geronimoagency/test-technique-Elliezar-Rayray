@@ -1,0 +1,41 @@
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+  .navbar {
+    background-color: #000000;
+    height: 60px;
+  }
+h1{
+  text-align: right;
+}
+  header{
+    padding-top: 60px;
+  }
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #ffffff;
+    padding: 25px;
+  }
+
+  .menu {
+    display:inline;
+    margin:21px 15px;
+    color:#ffffff;
+  }
+  header{
+    position: relative;
+  }
+  header p{
+    position:absolute;
+    color:#ffffff;
+    text-align: center;
+    vertical-align: middle;
+  }
+  ul li {
+    display:inline;
+    margin:21px 15px;
+  }
+  .load{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+    width: 95%;
+  }
